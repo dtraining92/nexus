@@ -1,0 +1,8 @@
+Integration of nexus with jenkins: 
+
+Install Required Plugins:
+Nexus Artifact Uploader plugin installed in Jenkins. You can install it via Manage Jenkins > Manage Plugins.
+
+
+Configure Nexus Credentials:
+Use username and password 
