@@ -1,0 +1,13 @@
+NEXUS:
+Nexus Repository Manager is a repository manager that allows you to store and retrieve artifacts (like libraries, binaries, and other types of files) used in development. It supports various package formats, including:
+Maven (Java)
+npm (JavaScript)
+PyPI (Python)
+NuGet (.NET)
+Docker images
+
+Why Use Nexus Instead of GitHub for Artifact Storage?
+
+GitHub is primarily a source code repository, Nexus is specifically built for managing artifacts.
+GitHub is not optimized for handling large binary files. When binary artifacts are stored in Git repositories, they can bloat the repository size and lead to performance issues. Nexus, on the other hand, is optimized for storing and serving large binary files.
+Nexus provides advanced metadata handling and versioning specific to artifacts, allowing teams to manage and retrieve specific versions easily.
